@@ -14,7 +14,7 @@ environments:
 ---
 repositories:
   - name: n5challenge
-    url: git+https://github.com/ElArcangelSax/helmchart@n5challenge?ref=master&sparse=0
+    url: git+https://github.com/ElArcangelSax/helmchart-n5challenge/newchallenge?ref=master&sparse=0
 
 
 
