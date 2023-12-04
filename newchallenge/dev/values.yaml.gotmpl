@@ -1,0 +1,6 @@
+port: {{ .Values | get "port" "8082" }}
+environment: {{ .Values | get "environment" "dev" }}
+secret: {{ .Values | get "secret" "ewoJImF1dGhzIjogewoJCSJkb2NrZXJodWIuaW8iOiB7CgkJCSJhdXRoIjogIlpYaGhiWEJzWlRveE1qTTBOVFlLIgoJCX0KCX0KfQo=" }}
+username: {{ .Values | get "username" "dXNlcg==" }}
+password: {{ .Values | get "password" "NTRmNDFkMTJlOGZh" }}
+image: {{ .Values | get "image" "nginxdemos/hello:0.3-plain-text" }}

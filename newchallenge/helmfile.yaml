@@ -1,0 +1,34 @@
+#helmDefaults:
+#  wait: true
+environments:
+# variables de ambiente no archivos.
+  default:
+  dev:
+    values:
+    - dev/values.yaml
+
+  stage:
+    values:
+    - stage/values.yaml
+
+---
+repositories:
+  - name: n5challenge
+    url: git+https://github.com/ElArcangelSax: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/helmchart-n5challenge?ref=master&sparse=0
+
+
+
+releases:
+  - name: myapp-dev
+    chart: ./charts/myapp
+    namespace: dev 
+    installed: true
+    values:
+      - dev/values.yaml.gotmpl
+
+  - name: myapp-stage
+    chart: ./charts/myapp
+    namespace: stage 
+    installed: false
+    values:
+      - stage/values.yaml

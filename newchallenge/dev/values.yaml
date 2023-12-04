@@ -1,0 +1,7 @@
+environment: "dev"
+name: "nsexample"
+secret: ewoJImF1dGhzIjogewoJCSJkb2NrZXJodWIuaW8iOiB7CgkJCSJhdXRoIjogIlpYaGhiWEJzWlRveE1qTTBOVFlLIgoJCX0KCX0KfQo=
+port: 8084
+image: nginxdemos/hello:0.3-plain-text
+username: dXNlcg==
+password: NTRmNDFkMTJlOGZh

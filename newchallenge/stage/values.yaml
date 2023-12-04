@@ -1,0 +1,8 @@
+environment: "stage"
+port: 8089
+name: "nsexample"
+secret: ewoJImF1dGhzIjogewoJCSJkb2NrZXJodWIuaW8iOiB7CgkJCSJhdXRoIjogIlpYaGhiWEJzWlRvMk5UUXpNakVLIgoJCX0KCX0KfQo=
+image: nginxdemos/hello:0.3-plain-text
+username: dXNlcg==
+password: NTRmNDFkMTJlOGZh
+releaseName: stage
